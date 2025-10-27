@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/pooja-bhavani/argocd-demos.git    # Replace it with your forked repo
+    repoURL: https://github.com/pooja-bhavani/argocd-in-one-shot.git    # Replace it with your forked repo
     targetRevision: main
     path: declarative_approach/online_shop
   destination:
