@@ -9,11 +9,11 @@ spec:
     - list:
         elements:
           - app: nginx
-            path: ui_approach/nginx     # path in repo for this app
+            path: 04_first_app_deployment/ui_approach/nginx     # path in repo for this app
           - app: online-shop
-            path: multicluster/online-shop   # path in repo for this app
+            path: 04_first_app_deployment/declarative_approach   # path in repo for this app
           - app: chaiapp
-            path: applicationsets/chai-app      # path in repo for this app
+            path: 05_argocd_features/applicationsets/chai-app      # path in repo for this app
   # Template that will be used to generate individual Application CRs
   template:
     metadata:
