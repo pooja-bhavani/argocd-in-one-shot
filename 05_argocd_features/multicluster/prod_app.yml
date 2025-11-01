@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/pooja-bhavani/argocd-in-one-shot.git
     targetRevision: main
-    path: 05_argocd_features/multicluster/online-shop # Path within the repo
+    path: 04_first_app_deployment/declarative_approach # Path within the repo
   destination:
     server: https://172.31.36.53:33893 # Production cluster API server URL here, run `argocd cluster list` to get the URL
     namespace: default
